@@ -1,9 +1,27 @@
 html {
   background-color: rgb(131, 53, 151);
-  font-size: 20px; /* px means "pixels": the base font size is now 10 pixels high */
+  font-size: 30px; /* px means "pixels": the base font size is now 10 pixels high */
   font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
 }
 
+main {
+  max-width: 1400px;
+  background-color: #423523;
+  padding: 3%;
+  text-align: center;
+  color: white;
+}
+
+aside {
+  width: 50%;
+  margin: 30px auto;
+  border: rgba(48, 28, 32, 0.877);
+  padding: 50px 20px 20px 20px;
+  text-align: justify;
+  background-color: #423523;
+  color: wheat;
+
+}
 h1 {
   font-size: 60px;
   text-align: center;
@@ -21,7 +39,7 @@ body {
   background-color: #201b14;
   padding: 20px 50px 100px 50px;
 }
-p,
+/* p,
 li {
   display: block;
   margin: 0 auto;
@@ -31,17 +49,19 @@ li {
   width: 100%;
   text-align: center;
   color: white;
-}
+} */
 
 img {
   display: block;
-  height: 700px;
-  width: auto;
+  height: 100%;
+  width: 100%;
   border: 10px solid rgb(255, 255, 255);
-  margin: auto;
+  margin: 0 auto;
 }
 
 footer {
   display: block;
   margin: 0 auto;
+  color: beige;
+  text-align: center;
 }
