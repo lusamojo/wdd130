@@ -22,7 +22,7 @@ nav {
 main {
   display: block;
   margin: 0 0 3rem 0;
-  /* background-color: #360438; */
+  background-color: #360438;
   padding: 1rem;
   text-align: justify;
   color: white;
@@ -87,7 +87,7 @@ aside {
 
 aside img {
   width: 95%;
-  /* display: block; */
+  display: block;
   margin: 25px 25px;
 }
 /* class selector */
@@ -103,7 +103,7 @@ aside img {
 
 aside h2 {
   position: absolute;
-  top: 750px;
+  top: 850px;
   left: 1000px;
   color: white;
 }
