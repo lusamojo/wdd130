@@ -1,0 +1,130 @@
+@import url(https://fonts.google.com/specimen/Inter?query=inter);
+
+:root{
+    --primary-color: #351E29;
+    --secondary-color: #5B3347;
+    --accent1-color: #FFC259;
+    --accent2-color: #F0F0F0;
+
+    --heading-font: "Inter", serif;
+    --paragraph-font: "Inter", serif;
+
+    --nav-background-color: #FFC259;
+    --nav-link-color: #f0f0f0;
+    --nav-hover-link-color: #351E29;
+    --nav-hover-background-color: #755f6a;
+}
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header img{
+    position: absolute;
+    width: 4rem;
+}
+header{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    padding: 20px 0 80px 0;
+    color: var(--accent1-color);
+    background-color: var(--nav-background-color)
+}
+
+p{
+    background-color: var(--nav-hover-background-color);
+    padding: 25px;
+    color: var(--nav-link-color);
+}
+
+nav{
+    position: absolute;
+    right: 1rem;
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+    text-align: right;
+}
+
+nav a:link, nav a:visited{
+    color: var(--nav-link-color);
+}
+
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.hero{
+    position: relative;
+    max-width: 1200px;
+    margin: 25px;
+}
+.hero img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+}
+
+.hero article p{
+    position: absolute;
+    margin-top: 25%;
+    background-color: #351e29c0;
+}
+
+.hero article img {
+    width: 20%;
+    float: right;
+    margin-top: 25%;
+}
+
+.history{
+    display: block;
+    position: relative;
+    max-width: 1200px;
+}
+
+.history img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.adventure{
+    position: relative;
+    max-width: 1200px;
+}
+
+.adventure img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+footer{
+    display: flex;
+    max-width: 1280px;
+}
+
+footer img{
+    width: 5%;
+}
