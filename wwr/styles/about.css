@@ -121,10 +121,11 @@ nav a:hover{
     height: auto;
 }
 footer{
-    display: flex;
+    position: relative;
     max-width: 1280px;
 }
 
 footer img{
-    width: 5%;
+    display: inline-block;
+    width: 10%;
 }
